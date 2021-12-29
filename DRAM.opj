@@ -1,0 +1,74 @@
+(ExpressProject "DRAM"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\dram.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (GND
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (DRAM-1M-SOJ
+      (FullPartName "DRAM-1M-SOJ.Normal")
+      (LibraryName "C:\USERS\HANX\DESKTOP\MY_OLB.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Cadence\Cadence_SPB_16.6\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "F:\韩旭的资料\SCH\DRAM_BANK\dram.dsn")
+      (Path "Design Resources" "F:\韩旭的资料\SCH\DRAM_BANK\dram.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources" "F:\韩旭的资料\SCH\DRAM_BANK\dram.dsn"
+         "SCHEMATIC1" "CONNECTOR"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 415"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 125 793 125 578")
+        (Scroll "0 0")
+        (Zoom "65")
+        (Occurrence "/"))
+      (Path "F:\韩旭的资料\SCH\DRAM_BANK\DRAM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "DRAM"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 175 1522 175 644")
+        (Scroll "0 20")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "F:\韩旭的资料\SCH\DRAM_BANK\DRAM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "CONNECTOR"))))

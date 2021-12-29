@@ -1,0 +1,99 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : DRAM_BOARD.brd                                )
+(    Software Version : 17.2S058                                      )
+(    Date/Time        : Wed Dec 29 23:32:18 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'F:/PCB_PROJECT/386_Dram_board/SCH/allegro'
+Design Directory:            'F:/PCB_PROJECT/386_Dram_board/PCB'
+Old design name:             'F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd'
+New design name:             'F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd'
+
+CmdLine: netrev -$ -i F:/PCB_PROJECT/386_Dram_board/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/386_Dram_board/PCB/#Taaaaei09320.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstchip.dat 
+   Finished reading F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstchip.dat (00:00:00.01)
+Starting to read F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstxprt.dat 
+   Finished reading F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstxprt.dat (00:00:00.00)
+Starting to read F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstxnet.dat 
+   Finished reading F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
+
+WARNING(SPMHNI-194): Symbol 'BTB-40P-0P8MM' used by RefDes J1 for device 'HEADER 20X2_BTB-40P-0P8MM_HEADE' not found. 
+The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
+
+Set the correct library path if not set or use dbdoctor to migrate old
+
+------ Library Paths ------
+MODULEPATH =  . 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/modules 
+
+PSMPATH =  F:/cadence/mylib/package/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+PADPATH =  F:/cadence/mylib/pad_lib/ 
+           . 
+           symbols 
+           .. 
+           ../symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/local/pcb/padstacks 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/pcb_lib/symbols 
+           D:/Cadence/Cadence_SPB_17.2-2016/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Dec 29 23:32:18 2021
+   DESIGN NAME : 'DRAM'
+   PACKAGING ON Aug  6 2019 19:29:12
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+  1 warnings detected
+
+cpu time      0:02:15
+elapsed time  0:00:01
+

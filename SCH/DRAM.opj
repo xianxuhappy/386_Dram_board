@@ -54,6 +54,11 @@
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (PartMRUSelector
+    ("HEADER 30X2"
+      (FullPartName "HEADER 30X2.Normal")
+      (LibraryName
+         "D:\CADENCE\CADENCE_SPB_17.2-2016\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
     (GND
       (LibraryName
          "D:\CADENCE\CADENCE_SPB_16.6\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -105,9 +110,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1431 52 511")
-        (Scroll "2037 699")
-        (Zoom "348")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1431 52 511")
+        (Scroll "125 261")
+        (Zoom "174")
         (Occurrence "/"))
       (Path "F:\PCB_PROJECT\386_DRAM_BOARD\SCH\DRAM.DSN")
       (Schematic "SCHEMATIC1")

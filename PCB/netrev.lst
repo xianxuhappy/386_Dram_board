@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DRAM_BOARD.brd                                )
 (    Software Version : 17.2S058                                      )
-(    Date/Time        : Wed Dec 29 23:32:18 2021                      )
+(    Date/Time        : Thu Dec 30 21:43:54 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            'F:/PCB_PROJECT/386_Dram_board/PCB'
 Old design name:             'F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd'
 New design name:             'F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd'
 
-CmdLine: netrev -$ -i F:/PCB_PROJECT/386_Dram_board/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/386_Dram_board/PCB/#Taaaaei09320.tmp
+CmdLine: netrev -$ -i F:/PCB_PROJECT/386_Dram_board/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/386_Dram_board/PCB/#Taaaarr17008.tmp
 
 ------ Preparing to read pst files ------
 
@@ -35,13 +35,6 @@ Starting to read F:/PCB_PROJECT/386_Dram_board/SCH/allegro/pstxnet.dat
 
 ------ Oversights/Warnings/Errors ------
 
-
-#1   WARNING(SPMHNI-192): Device/Symbol check warning detected. [help]
-
-WARNING(SPMHNI-194): Symbol 'BTB-40P-0P8MM' used by RefDes J1 for device 'HEADER 20X2_BTB-40P-0P8MM_HEADE' not found. 
-The symbol either does not exist in the library path (PSMPATH) or is an old symbol from a previous release.  
-
-Set the correct library path if not set or use dbdoctor to migrate old
 
 ------ Library Paths ------
 MODULEPATH =  . 
@@ -69,7 +62,7 @@ PADPATH =  F:/cadence/mylib/pad_lib/
 ------ Summary Statistics ------
 
 
-netrev run on Dec 29 23:32:18 2021
+netrev run on Dec 30 21:43:54 2021
    DESIGN NAME : 'DRAM'
    PACKAGING ON Aug  6 2019 19:29:12
 
@@ -92,8 +85,8 @@ netrev run on Dec 29 23:32:18 2021
 
  No error detected
  No oversight detected
-  1 warnings detected
+ No warning detected
 
-cpu time      0:02:15
+cpu time      0:02:17
 elapsed time  0:00:01
 

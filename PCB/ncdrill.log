@@ -1,0 +1,73 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    NC DRILL Log                                                     )
+(                                                                     )
+(    Drawing          : DRAM_BOARD.brd                                )
+(    Software Version : 17.2S058                                      )
+(    Date/Time        : Thu Dec 30 22:29:20 2021                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+ Processing NC Parameters file 'nc_param.txt' ...
+
+ NC PARAMETERS
+ -------------
+
+ FORMAT   		2.5
+ MACHINE-OFFSET		x:0.00000	y:0.00000   (inch)
+ FEEDRATE		1
+ COORDINATES		ABSOLUTE
+ OUTPUT-UNITS		ENGLISH
+ TOOL-ORDER		INCREASING
+ REPEAT-CODES		YES
+ SUPPRESS-LEAD-ZEROES	YES
+ SUPPRESS-TRAIL-ZEROES	NO
+ SUPPRESS-EQUAL		NO
+ TOOL-SELECT		YES
+ HEADER			none
+ LEADER			12
+ CODE			ASCII
+ SEPARATE		NO
+ SEPARATE-ROUTING	NO
+ OPTIMIZE_DRILLING	YES
+ ENHANCED_EXCELLON	YES
+ SCALE			1.000000
+
+ WARNING(SPMHMF-358): Design precision is the same as that of the drill output file data.
+ WARNING(SPMHMF-359): Data rounding errors may still be possible.
+ WARNING(SPMHMF-368): Cannot find NC Drill tool file 'nc_tools.txt'
+ WARNING(SPMHMF-369): ... will auto-generate tool file 'nc_tools_auto.txt'.
+
+
+     Auto-generating tool file 'nc_tools_auto.txt' ...
+
+           Size  Plating  Tool        + Tolerance  - Tolerance
+
+           7.87  P        T01            0.000000     0.000000
+          11.81  P        T02            0.000000     0.000000
+         125.98  P        T03            0.000000     0.000000
+          39.37  N        T04            0.000000     0.000000
+          51.18  N        T05            0.000000     0.000000
+
+
+Drill files being output to directory 'F:/PCB_PROJECT/386_Dram_board/PCB' ...
+
+
+
+     'DRAM_BOARD-1-4.drl' created for holes connecting TOP and BOTTOM
+     ----------------------------------------------------------------
+
+     Tool  Num     Size      +/- Tolerance     Plating   Quantity
+
+     T01    1.   7.8700    0.0000/  0.0000      PLATED        658
+     T02    2.  11.8100    0.0000/  0.0000      PLATED        156
+     T03    3. 125.9800    0.0000/  0.0000      PLATED          4
+     T04    4.  39.3700    0.0000/  0.0000  NON_PLATED          1
+     T05    5.  51.1800    0.0000/  0.0000  NON_PLATED          1
+
+     ---- Total holes:                                        820
+
+     ---- Total head travel:              10.13 feet (3.09 meters)
+

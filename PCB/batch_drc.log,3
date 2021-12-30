@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DRAM_BOARD.brd                                )
 (    Software Version : 17.2S058                                      )
-(    Date/Time        : Wed Dec 29 23:26:31 2021                      )
+(    Date/Time        : Thu Dec 30 21:42:50 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  3
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

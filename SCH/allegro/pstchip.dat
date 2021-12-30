@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Dec-29-2021 at 23:32:12}
+{ Using PSTWRITER 17.2.0 d001Dec-30-2021 at 21:43:46}
 primitive 'CAP NP_C0603_1UF';
   pin
     '1':
@@ -15,7 +15,7 @@ primitive 'CAP NP_C0603_1UF';
     VALUE='1uf';
   end_body;
 end_primitive;
-primitive 'HEADER 20X2_BTB-40P-0P8MM_HEADE';
+primitive 'HEADER 30X2_BTB-60P-0P8MM-MALE_';
   pin
     '2':
       PIN_NUMBER='(2)';
@@ -77,6 +77,36 @@ primitive 'HEADER 20X2_BTB-40P-0P8MM_HEADE';
     '40':
       PIN_NUMBER='(40)';
       PINUSE='UNSPEC';
+    '42':
+      PIN_NUMBER='(42)';
+      PINUSE='UNSPEC';
+    '44':
+      PIN_NUMBER='(44)';
+      PINUSE='UNSPEC';
+    '46':
+      PIN_NUMBER='(46)';
+      PINUSE='UNSPEC';
+    '48':
+      PIN_NUMBER='(48)';
+      PINUSE='UNSPEC';
+    '50':
+      PIN_NUMBER='(50)';
+      PINUSE='UNSPEC';
+    '52':
+      PIN_NUMBER='(52)';
+      PINUSE='UNSPEC';
+    '54':
+      PIN_NUMBER='(54)';
+      PINUSE='UNSPEC';
+    '56':
+      PIN_NUMBER='(56)';
+      PINUSE='UNSPEC';
+    '58':
+      PIN_NUMBER='(58)';
+      PINUSE='UNSPEC';
+    '60':
+      PIN_NUMBER='(60)';
+      PINUSE='UNSPEC';
     '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
@@ -137,11 +167,41 @@ primitive 'HEADER 20X2_BTB-40P-0P8MM_HEADE';
     '39':
       PIN_NUMBER='(39)';
       PINUSE='UNSPEC';
+    '41':
+      PIN_NUMBER='(41)';
+      PINUSE='UNSPEC';
+    '43':
+      PIN_NUMBER='(43)';
+      PINUSE='UNSPEC';
+    '45':
+      PIN_NUMBER='(45)';
+      PINUSE='UNSPEC';
+    '47':
+      PIN_NUMBER='(47)';
+      PINUSE='UNSPEC';
+    '49':
+      PIN_NUMBER='(49)';
+      PINUSE='UNSPEC';
+    '51':
+      PIN_NUMBER='(51)';
+      PINUSE='UNSPEC';
+    '53':
+      PIN_NUMBER='(53)';
+      PINUSE='UNSPEC';
+    '55':
+      PIN_NUMBER='(55)';
+      PINUSE='UNSPEC';
+    '57':
+      PIN_NUMBER='(57)';
+      PINUSE='UNSPEC';
+    '59':
+      PIN_NUMBER='(59)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='HEADER 20X2';
-    JEDEC_TYPE='BTB-40P-0P8MM';
-    VALUE='HEADER 20X2';
+    PART_NAME='HEADER 30X2';
+    JEDEC_TYPE='BTB-60P-0P8MM-MALE';
+    VALUE='HEADER 30X2';
   end_body;
 end_primitive;
 primitive 'TEST_POINT_TP-R-3X1MM_TEST_POIN';

@@ -3,28 +3,41 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
-|                                                    Wed Dec 29 23:32:18 2021  |
+|                                                    Thu Dec 30 21:43:54 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- TP7                 TEST_POINT_TP-R-3X1MM_TEST_POIN                 TEST_POINT_R_SMD__TEST_POINT
+ HEADER 30X2_BTB-60P-0P8MM-MALE_
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
-|                                                    Wed Dec 29 23:32:18 2021  |
+|                                                    Thu Dec 30 21:43:54 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1                  HEADER 30X2_BTB-60P-0P8MM-MALE_                 HEADER 30X2_BTB-60-0P8MM-MALE_H
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
+|                                                    Thu Dec 30 21:43:54 2021  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- TP7.1                          PRIM_FILE      .\pstchip.dat
+ J1.9                           PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
 |       Components changed    :       1                                        |
 |       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:       2                                        |
+|   Total ECO changes reported:       3                                        |
 |------------------------------------------------------------------------------|

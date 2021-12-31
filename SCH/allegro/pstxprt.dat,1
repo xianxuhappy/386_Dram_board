@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Dec-30-2021 at 21:07:39 }
+{ Using PSTWRITER 17.2.0 d001Dec-30-2021 at 21:35:08 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='DRAM';
@@ -168,12 +168,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J1 'HEADER 20X2_BTB-40P-0P8MM-MALE_':;
+ J1 'HEADER 30X2_BTB-60-0P8MM_HEADER':;
 
 SECTION_NUMBER 1
- '@DRAM.SCHEMATIC1(SCH_1):INS41469@CONNECTOR.HEADER 20X2.NORMAL(CHIPS)':
- C_PATH='@dram.schematic1(sch_1):ins41469@connector.\header 20x2.normal\(chips)',
- P_PATH='@dram.schematic1(sch_1):page1_ins41469@connector.\header 20x2.normal\(chips)',
+ '@DRAM.SCHEMATIC1(SCH_1):INS50899@CONNECTOR.HEADER 30X2.NORMAL(CHIPS)':
+ C_PATH='@dram.schematic1(sch_1):ins50899@connector.\header 30x2.normal\(chips)',
+ P_PATH='@dram.schematic1(sch_1):page1_ins50899@connector.\header 30x2.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

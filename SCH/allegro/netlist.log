@@ -1,15 +1,15 @@
-{ Using PSTWRITER 16.6.0 d001Dec-31-2021 at 15:17:53 }
+{ Using PSTWRITER 17.2.0 d001Dec-31-2021 at 19:09:14 }
 
 #1 WARNING(ORCAP-36006): Part Name "HEADER 30X2_BTB-60P-0P8MM-MALE_HEADER 30X2" is renamed to "HEADER 30X2_BTB-60P-0P8MM-MALE_".
 #2 WARNING(ORCAP-36006): Part Name "TEST_POINT_TP-R-3X1MM_TEST_POINT" is renamed to "TEST_POINT_TP-R-3X1MM_TEST_POIN".
 #3 WARNING(ORCAP-36006): Part Name "DRAM-1M-SOJ_SOJ20-300MIL_DRAM-1M-SOJ" is renamed to "DRAM-1M-SOJ_SOJ20-300MIL_DRAM-1".
 INFO(ORCAP-36080): Scanning netlist files ...
 
-Loading... F:\HANXU_DOC\SCH\386_DRAM_BOARD\SCH\allegro/pstchip.dat
+Loading... F:\PCB_PROJECT\386_DRAM_BOARD\SCH\allegro/pstchip.dat
 
-Loading... F:\HANXU_DOC\SCH\386_DRAM_BOARD\SCH\allegro/pstchip.dat
+Loading... F:\PCB_PROJECT\386_DRAM_BOARD\SCH\allegro/pstchip.dat
 
-Loading... F:\HANXU_DOC\SCH\386_DRAM_BOARD\SCH\allegro/pstxprt.dat
+Loading... F:\PCB_PROJECT\386_DRAM_BOARD\SCH\allegro/pstchip.dat
 
-Loading... F:\HANXU_DOC\SCH\386_DRAM_BOARD\SCH\allegro/pstxnet.dat
+Loading... F:\PCB_PROJECT\386_DRAM_BOARD\SCH\allegro/pstxnet.dat
 packaging the design view...

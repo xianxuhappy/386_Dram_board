@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Dec-30-2021 at 21:43:46}
+{ Using PSTWRITER 17.2.0 d001Dec-31-2021 at 19:03:33}
 primitive 'CAP NP_C0603_1UF';
   pin
     '1':
@@ -202,6 +202,21 @@ primitive 'HEADER 30X2_BTB-60P-0P8MM-MALE_';
     PART_NAME='HEADER 30X2';
     JEDEC_TYPE='BTB-60P-0P8MM-MALE';
     VALUE='HEADER 30X2';
+  end_body;
+end_primitive;
+primitive 'R_R0603_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='R';
+    JEDEC_TYPE='R0603';
+    VALUE='R';
   end_body;
 end_primitive;
 primitive 'TEST_POINT_TP-R-3X1MM_TEST_POIN';

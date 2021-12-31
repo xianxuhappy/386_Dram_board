@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DRAM_BOARD.brd                                )
 (    Software Version : 17.2S058                                      )
-(    Date/Time        : Thu Dec 30 21:43:54 2021                      )
+(    Date/Time        : Fri Dec 31 19:09:19 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,7 +22,7 @@ Design Directory:            'F:/PCB_PROJECT/386_Dram_board/PCB'
 Old design name:             'F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd'
 New design name:             'F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd'
 
-CmdLine: netrev -$ -i F:/PCB_PROJECT/386_Dram_board/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/386_Dram_board/PCB/#Taaaarr17008.tmp
+CmdLine: netrev -$ -i F:/PCB_PROJECT/386_Dram_board/SCH/allegro -y 1 -h -q netrev_constraint_report.xml F:/PCB_PROJECT/386_Dram_board/PCB/#Taaaabe14880.tmp
 
 ------ Preparing to read pst files ------
 
@@ -62,7 +62,7 @@ PADPATH =  F:/cadence/mylib/pad_lib/
 ------ Summary Statistics ------
 
 
-netrev run on Dec 30 21:43:54 2021
+netrev run on Dec 31 19:09:19 2021
    DESIGN NAME : 'DRAM'
    PACKAGING ON Aug  6 2019 19:29:12
 
@@ -87,6 +87,6 @@ netrev run on Dec 30 21:43:54 2021
  No oversight detected
  No warning detected
 
-cpu time      0:02:17
+cpu time      0:02:20
 elapsed time  0:00:01
 

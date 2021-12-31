@@ -10,8 +10,8 @@ REPEAT-CODES           YES
 SUPPRESS-LEAD-ZEROES   YES
 SUPPRESS-TRAIL-ZEROES  NO
 SUPPRESS-EQUAL         NO
-TOOL-SELECT            NO
-OPTIMIZE_DRILLING      NO
+TOOL-SELECT            YES
+OPTIMIZE_DRILLING      YES
 ENHANCED_EXCELLON      YES
 HEADER                 none
 LEADER                 12
@@ -20,8 +20,8 @@ SEPARATE               NO
 SEPARATE-ROUTING       NO
 DRILLING               LAYER-PAIR
 BACKDRILL              NO
-CAVITY                 NO
 COUNTER                NO
+CAVITY                 NO
 TOLERANCE_DRILL        YES
 TOLERANCE_TRAVEL       YES
 TOOL_SIZE              YES

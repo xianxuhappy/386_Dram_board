@@ -3,41 +3,143 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
-|                                                    Thu Dec 30 21:43:54 2021  |
+|                                                    Fri Dec 31 19:09:19 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- HEADER 30X2_BTB-60P-0P8MM-MALE_
+  N59706       pins MOVED FROM this net (to net name listed on right)
+                                 U1.22           1167.32  100.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N59788       pins MOVED FROM this net (to net name listed on right)
+                                 U2.22           1767.32  100.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N59932       pins MOVED FROM this net (to net name listed on right)
+                                 U3.22           2367.32  100.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N60077       pins MOVED FROM this net (to net name listed on right)
+                                 U4.22           2967.32  100.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N60223       pins MOVED FROM this net (to net name listed on right)
+                                 U5.22           1167.32 -700.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N60370       pins MOVED FROM this net (to net name listed on right)
+                                 U6.22           1767.32 -700.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N60518       pins MOVED FROM this net (to net name listed on right)
+                                 U7.22           2367.32 -700.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N60667       pins MOVED FROM this net (to net name listed on right)
+                                 U8.22           2967.32 -700.00
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N60817       pins MOVED FROM this net (to net name listed on right)
+                                 U10.22          1767.32 -1500.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N61146       pins MOVED FROM this net (to net name listed on right)
+                                 U9.22           1167.32 -1500.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N61367       pins MOVED FROM this net (to net name listed on right)
+                                 U11.22          2367.32 -1500.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N61520       pins MOVED FROM this net (to net name listed on right)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
-|                                                    Thu Dec 30 21:43:54 2021  |
+|                                                    Fri Dec 31 19:09:19 2021  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1                  HEADER 30X2_BTB-60P-0P8MM-MALE_                 HEADER 30X2_BTB-60-0P8MM-MALE_H
+                                 U12.22          2967.32 -1500.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N61674       pins MOVED FROM this net (to net name listed on right)
+                                 U13.22          1167.32 -2300.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N61829       pins MOVED FROM this net (to net name listed on right)
+                                 U14.22          1767.32 -2300.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N61985       pins MOVED FROM this net (to net name listed on right)
+                                 U15.22          2367.32 -2300.0
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N62142       pins MOVED FROM this net (to net name listed on right)
+                                 U16.22          2967.32 -2300.0
+                                                                            GND
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
-|                                                    Thu Dec 30 21:43:54 2021  |
+|                                                    Fri Dec 31 19:09:19 2021  |
 |------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J1.9                           PRIM_FILE      .\pstchip.dat
+ R1                  R_R0603_R                            
+ R2                  R_R0603_R                            
+ R3                  R_R0603_R                            
+ R4                  R_R0603_R                            
+ R5                  R_R0603_R                            
+ R6                  R_R0603_R                            
+ R7                  R_R0603_R                            
+ R8                  R_R0603_R                            
+ R9                  R_R0603_R                            
+ R10                 R_R0603_R                            
+ R11                 R_R0603_R                            
+ R12                 R_R0603_R                            
+ R13                 R_R0603_R                            
+ R14                 R_R0603_R                            
+ R15                 R_R0603_R                            
+ R16                 R_R0603_R                            
+ R17                 R_R0603_R                            
+ R18                 R_R0603_R                            
+ R19                 R_R0603_R                            
+ R20                 R_R0603_R                            
+ R21                 R_R0603_R                            
+ R22                 R_R0603_R                            
+ R23                 R_R0603_R                            
+ R24                 R_R0603_R                            
+ R25                 R_R0603_R                            
+ R26                 R_R0603_R                            
+ R27                 R_R0603_R                            
+ R28                 R_R0603_R                            
+ R29                 R_R0603_R                            
+ R30                 R_R0603_R                            
+ R31                 R_R0603_R                            
+ R32                 R_R0603_R                            
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|       Comp definitions added:       1                                        |
-|       Components changed    :       1                                        |
-|       Slot property added   :       1                                        |
+|  F:/PCB_PROJECT/386_Dram_board/PCB/DRAM_BOARD.brd                            |
+|                                                    Fri Dec 31 19:09:19 2021  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :      16                                        |
+|       Components deleted    :      32                                        |
 |                                                                              |
-|   Total ECO changes reported:       3                                        |
+|   Total ECO changes reported:      48                                        |
 |------------------------------------------------------------------------------|

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : DRAM_BOARD.brd                                )
 (    Software Version : 17.2S058                                      )
-(    Date/Time        : Fri Dec 31 19:11:52 2021                      )
+(    Date/Time        : Thu Dec 30 22:29:20 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -61,13 +61,13 @@ Drill files being output to directory 'F:/PCB_PROJECT/386_Dram_board/PCB' ...
 
      Tool  Num     Size      +/- Tolerance     Plating   Quantity
 
-     T01    1.   7.8700    0.0000/  0.0000      PLATED        649
-     T02    2.  11.8100    0.0000/  0.0000      PLATED        171
+     T01    1.   7.8700    0.0000/  0.0000      PLATED        658
+     T02    2.  11.8100    0.0000/  0.0000      PLATED        156
      T03    3. 125.9800    0.0000/  0.0000      PLATED          4
      T04    4.  39.3700    0.0000/  0.0000  NON_PLATED          1
      T05    5.  51.1800    0.0000/  0.0000  NON_PLATED          1
 
-     ---- Total holes:                                        826
+     ---- Total holes:                                        820
 
-     ---- Total head travel:              10.41 feet (3.17 meters)
+     ---- Total head travel:              10.13 feet (3.09 meters)
 
